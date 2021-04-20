@@ -1,0 +1,26 @@
+{
+    "name": "amirjeyz/iplocation",
+    "description": "Get Country, City, Timezone and ... from user ip",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amirreza Kheradmand",
+            "email": "amir.rezakheradmand.2017@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Amirjeyz\\Iplocation\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Amirjeyz\\Iplocation\\IplocationServiceProvider"
+            ]
+        }
+    }
+}
