@@ -59,12 +59,6 @@ class Iplocation
     public static function getUserCallingCode()
     {
         $client = Iplocation::api();
-        return $client['calling_code'];
-    }
-
-    public static function getUserCountryCode()
-    {
-        $client = Iplocation::api();
         return $client['location']['calling_code'];
     }
 }
