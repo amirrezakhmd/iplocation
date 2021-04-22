@@ -29,7 +29,16 @@ class IplocationController extends Controller
     }
 }
 ```
+## Classes
+List of classes with description for use in your controller
 
 | Class | Description |
 |---|---|
+| Iplocation::all() | Get all data from users ip |
 | Iplocation::getUserIp() | Get user ip |
+| Iplocation::getUserCountry() | Get user country from ip |
+| Iplocation::getUserCity() | Get user city from ip |
+| Iplocation::getUserLanguage() | Get user language from ip |
+| Iplocation::getUserCountryFlag() | Get user country flag from ip |
+| Iplocation::getUserProvince() | Get user province from ip |
+| Iplocation::getUserCallingCode() | Get user calling code from country and ip |
