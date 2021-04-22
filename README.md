@@ -18,7 +18,7 @@ Get API from [IPStack](https://ipstack.com/) and then in `config/iplocation.php`
 
 ## Usage
 To use from package you must use `use Amirjeyz\Iplocation\Iplocation` in your controller.
-```bash
+```php
 use Amirjeyz\Iplocation\Iplocation;
 
 class IplocationController extends Controller
