@@ -29,7 +29,7 @@ class IplocationController extends Controller
     }
 }
 ```
-## Classes
+## Methods
 List of classes with description for use in your controller
 
 | Class | Description |
