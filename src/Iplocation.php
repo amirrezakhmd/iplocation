@@ -10,7 +10,7 @@ class Iplocation
     {
         $ip = Iplocation::getUserIp();
         $client = Http::get('http://api.ipstack.com/'. $ip , [
-            'access_key' => 'b8c77137ce49b743d904c47bd9b0f1eb'
+            'access_key' => config('iplocation.api')
         ]);
         return $client;
     }
