@@ -7,3 +7,8 @@ You should install package with composer:
 ```bash
 composer require amirjeyz/iplocation
 ```
+|   |   |   |   |   |
+|---|---|---|---|---|
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
